@@ -1,7 +1,3 @@
-import { heroArray} from './arrayfilter';
+import { heroArray, arrayFilter } from './arrayfilter';
 
-
-   let newArray = heroArray.filter(function (el) {
-    return el.health>=90;
-  })
-  console.log(newArray);
+arrayFilter(heroArray);
